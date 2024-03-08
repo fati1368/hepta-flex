@@ -13,12 +13,7 @@
   .header-section.large .title {
     font-size: 5rem;
   }
-  .blog::before {
-    left: 0;
-    transform: rotate(0deg);
-    width: 100%;
-    top: -250px;
-  }
+
   .testimonial .items ul li img {
     margin-left: 40%;
     display: block;
@@ -70,6 +65,9 @@
   }
   .col-4 {
     flex-basis: 100%;
+  }
+  .interrmediate {
+    height: 100px;
   }
 }
 @media (max-width: 500px) {

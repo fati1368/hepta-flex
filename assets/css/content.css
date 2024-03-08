@@ -186,16 +186,18 @@
 .slider .pagination ul li.active {
   background: transparent;
 }
-.blog::before {
-  content: "";
-  background: #65c0ba;
-  width: 110%;
-  transform: rotate(-4deg);
-  padding: 250px 0;
+.interrmediate {
   position: absolute;
-  top: -350px;
+  width: 100%;
+  height: 300px;
+  bottom: -2%;
   left: 0;
   z-index: -1;
+}
+.interrmediate:before {
+  content: "";
+  border-top: 100px solid transparent;
+  border-right: 100vw solid #65c0ba;
 }
 .blog .items ul li .content {
   background-color: #fff;
