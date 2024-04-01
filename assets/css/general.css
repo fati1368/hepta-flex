@@ -29,7 +29,6 @@ ol {
   padding: 0 15px;
 }
 .container {
-  width: 100%;
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
@@ -40,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "abril fatface", Arial, Helvetica, sans-serif;
+  font-family: "abril fatface", Arial, sans-serif;
 }
 h2 {
   font-size: 3rem;
@@ -174,9 +173,11 @@ p {
 .mb-3 {
   margin-bottom: 25px;
 }
-
 [class^="col-"] {
   padding: 15px;
+}
+.pl-5 {
+  padding-left: 7em;
 }
 .section-space {
   padding: 10rem 0;
@@ -191,7 +192,15 @@ p {
   line-height: 70px;
 }
 .header-section.white .description {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+.header-section .title {
+  font-size: 3rem;
+}
+.header-section .description {
+  font-size: 2.2rem;
 }
 .bg-gray {
   background-color: #fafafa;
@@ -204,12 +213,7 @@ p {
 .bg-green {
   background-color: #65c0ba;
 }
-.header-section .title {
-  font-size: 3rem;
-}
-.header-section .description {
-  font-size: 2rem;
-}
+
 .img-full {
   width: 100%;
   height: auto;
@@ -217,4 +221,14 @@ p {
 p::selection {
   color: #6c757d;
   background-color: #65c0ba;
+}
+.transition {
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+}
+.cursor {
+  cursor: pointer;
 }

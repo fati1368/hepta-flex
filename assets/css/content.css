@@ -1,3 +1,25 @@
+.header {
+  padding: 4.5em 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.header .menu {
+  width: 45px;
+  height: 24px;
+}
+.header .menu span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+.header .logo a h2 {
+  color: #fff;
+  font-size: 3.4rem;
+}
 .hero-section {
   height: 100dvh;
   width: 100%;
@@ -17,29 +39,6 @@
   left: 0;
   content: "";
 }
-.header {
-  padding: 40px 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1;
-}
-.header .menu span {
-  display: block;
-  width: 100%;
-  height: 2px;
-  background-color: #fff;
-}
-
-.header .menu {
-  width: 32px;
-  height: 24px;
-}
-.header .logo a {
-  color: #fff;
-  font-size: 2rem;
-}
 .hero-section .hero-content {
   color: #fff;
   height: 100vh;
@@ -50,35 +49,29 @@
   font-size: 9rem;
 }
 .hero-section .hero-content p {
-  font-size: 3rem;
+  font-size: 3.4rem;
   font-weight: 200;
   color: #fff;
 }
 .hero-section .hero-content p a {
   color: rgba(255, 255, 255, 0.5);
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-  transition: all 0.5s;
 }
 .hero-section .hero-content p a:hover {
   color: rgba(255, 255, 255, 1);
   border-bottom: 2px solid rgba(255, 255, 255, 1);
 }
-.hero-section .buttom {
+.hero-section .button {
   display: inline-block;
-  padding: 15px 25px;
-  border: 1px solid #fff;
+  padding: 1.1em 3em;
+  border: 2.5px solid #fff;
   border-radius: 5px;
   font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
-  transition: all 0.15s;
-  -moz-transition: all 0.15s;
-  -webkit-transition: all 0.15s;
-  -o-transition: all 0.15s;
-  -ms-transition: all 0.15s;
 }
-.hero-section .buttom:hover {
+.hero-section .button:hover {
   background-color: #fff;
   color: #000;
 }
@@ -111,9 +104,9 @@
 }
 .welcome .call-to-action {
   gap: 10px;
+  width: fit-content;
 }
 .welcome .call-to-action .icon {
-  transition: all 0.3s;
   width: 50px;
   height: 50px;
   border: 2px solid #e6e6e6;
@@ -127,7 +120,6 @@
   font-size: 1.7rem;
   color: #65b0ba;
   letter-spacing: 2px;
-  transition: all 0.3s;
 }
 .welcome .call-to-action:hover .icon {
   border-color: #000;
@@ -154,9 +146,7 @@
   top: 50%;
   transform: translateY(-50%);
   font-size: 4rem;
-  transition: all 0.3s;
   color: #495057;
-  cursor: pointer;
 }
 .slider .prev {
   left: -50px;
@@ -238,7 +228,6 @@
 }
 .destination .items ul li .bottom-content a {
   color: #000;
-  transition: all 0.3s;
 }
 .destination .items ul li .bottom-content a:hover {
   color: #3f9a94;
@@ -289,7 +278,6 @@
   width: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;
-  transition: all 0.3s;
   padding-right: 40px;
   padding-left: 10px;
 }
@@ -307,7 +295,6 @@
   border: none;
   box-shadow: none;
   outline: 0;
-  cursor: pointer;
   position: absolute;
   right: 20px;
   bottom: 15px;
