@@ -1,5 +1,5 @@
 .header {
-  padding: 4.5em 0;
+  padding: 2.6em 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -7,8 +7,8 @@
   z-index: 1;
 }
 .header .menu {
-  width: 45px;
-  height: 24px;
+  width: 40px;
+  height: 22px;
 }
 .header .menu span {
   display: block;
@@ -18,19 +18,19 @@
 }
 .header .logo a h2 {
   color: #fff;
-  font-size: 3.4rem;
 }
-.hero-section {
-  height: 100dvh;
-  width: 100%;
-  background-image: url(../image/slider-1.jpg);
-  background-position: center center;
+.hero {
+  background-image: url(../image/hero_2.webp);
   background-size: cover;
+  height: 100dvh;
+  width: 100dvw;
+  background-position: center center;
   background-repeat: no-repeat;
   position: relative;
   min-height: 700px;
 }
-.hero-section:before {
+
+.hero:before {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -39,43 +39,47 @@
   left: 0;
   content: "";
 }
-.hero-section .hero-content {
+.hero .hero-content {
   color: #fff;
-  height: 100vh;
-  min-height: 700px;
+  height: 100dvh;
+  min-height: 680px;
+  overflow: hidden;
+  white-space: nowrap;
   text-overflow: ellipsis;
 }
-.hero-section .hero-content h1 {
-  font-size: 9rem;
+.hero .hero-content h1 {
+  font-size: 8rem;
+  line-height: 1.5;
 }
-.hero-section .hero-content p {
-  font-size: 3.4rem;
+.hero .hero-content p {
+  font-size: 3rem;
   font-weight: 200;
   color: #fff;
 }
-.hero-section .hero-content p a {
+.hero .hero-content p a {
   color: rgba(255, 255, 255, 0.5);
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
-.hero-section .hero-content p a:hover {
+.hero .hero-content p a:hover {
   color: rgba(255, 255, 255, 1);
   border-bottom: 2px solid rgba(255, 255, 255, 1);
 }
-.hero-section .button {
+.hero .button {
   display: inline-block;
-  padding: 1.1em 3em;
-  border: 2.5px solid #fff;
-  border-radius: 5px;
+  padding: 1em 2.1em 1.1em 2.1em;
+  border: 2px solid #fff;
+  border-radius: 4px;
   font-size: 1.5rem;
+  font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
 }
-.hero-section .button:hover {
+.hero .button:hover {
   background-color: #fff;
   color: #000;
 }
-.hero-section .scroll-bottom {
+.hero .scroll-bottom {
   position: absolute;
   bottom: 10px;
   left: 50%;
@@ -83,10 +87,10 @@
   text-align: center;
   color: #fff;
 }
-.hero-section .scroll-bottom * {
+.hero .scroll-bottom * {
   display: block;
 }
-.hero-section .scroll-bottom i {
+.hero .scroll-bottom i {
   transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -94,7 +98,7 @@
   -ms-transform: rotate(90deg);
   color: #fff;
 }
-.hero-section .scroll-bottom span {
+.hero .scroll-bottom span {
   font-size: 1.2rem;
   text-transform: uppercase;
 }

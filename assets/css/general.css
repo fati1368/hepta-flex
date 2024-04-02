@@ -12,9 +12,12 @@ html {
 }
 body {
   direction: ltr;
-  font-family: "mukta mahee", Arial, Helvetica, sans-serif;
+  font-family: "Mukta Mahee", arial, sans-serif;
+  font-weight: 200;
+  font-size:1.8rem;
   line-height: 1.8;
   overflow-x: hidden;
+  color: #6c757d
 }
 a {
   text-decoration: none;
@@ -25,11 +28,12 @@ ol {
   list-style: none;
 }
 .container-full {
+  max-width: 1600px;
   width: 100%;
   padding: 0 15px;
 }
 .container {
-  max-width: 1140px;
+  max-width: 1110px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -219,7 +223,7 @@ p {
   height: auto;
 }
 p::selection {
-  color: #6c757d;
+  color: #fff;
   background-color: #65c0ba;
 }
 .transition {
