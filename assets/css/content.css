@@ -222,7 +222,7 @@
   text-overflow: ellipsis;
 }
 .blog .items ul li .content .bottom-content .description {
-  min-height: 165px;
+  min-height: 120px;
 }
 .testimonial .items ul li img {
   width: 70px;
