@@ -139,6 +139,7 @@
 .experience .items img {
   width: 70px;
   height: auto;
+  margin-bottom: 15px;
 }
 .slider:before {
   position: absolute;
