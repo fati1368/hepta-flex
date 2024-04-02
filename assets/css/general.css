@@ -17,7 +17,6 @@ body {
   font-size:1.8rem;
   line-height: 1.8;
   overflow-x: hidden;
-  color: #6c757d
 }
 a {
   text-decoration: none;
@@ -33,7 +32,7 @@ ol {
   padding: 0 15px;
 }
 .container {
-  max-width: 1110px;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
 }
