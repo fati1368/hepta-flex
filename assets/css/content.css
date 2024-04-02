@@ -233,6 +233,8 @@
 .testimonial .items ul li .text {
   color: #000;
   min-height: 180px;
+  font-size: 2rem;
+  line-height: 1.5;
 }
 .testimonial .items ul li .author {
   font-style: italic;
