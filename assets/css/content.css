@@ -23,7 +23,7 @@
   background-image: url(../image/hero_2.webp);
   background-size: cover;
   height: 100dvh;
-  width: 100dvw;
+  width: 100%;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
@@ -106,7 +106,7 @@
   height: auto;
   width: 100%;
 }
-.welcome .text-welcome{
+.welcome .text-welcome {
   padding-left: 2.7em;
 }
 .welcome .call-to-action {
@@ -143,12 +143,18 @@
 }
 .slider:before {
   position: absolute;
-  width: 100%;
+  width:100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.1);
   content: "";
   left: 0;
   bottom: 0;
+}
+.slider .slider-img::before {
+  padding: 0.6em;
+}
+.slider .slider-img img {
+  box-shadow: 0 10px 70px -10px rgba(0, 0, 0, 0.2);
 }
 .slider .arrow {
   position: absolute;
@@ -186,7 +192,7 @@
 .slider .pagination ul li.active {
   background: transparent;
 }
-.interrmediate {
+.intermediate {
   position: absolute;
   width: 100%;
   height: 300px;
@@ -194,7 +200,7 @@
   left: 0;
   z-index: -1;
 }
-.interrmediate:before {
+.intermediate:before {
   content: "";
   border-top: 100px solid transparent;
   border-right: 100vw solid #65c0ba;
