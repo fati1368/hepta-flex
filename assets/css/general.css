@@ -232,3 +232,7 @@ p::selection {
 .cursor {
   cursor: pointer;
 }
+.color{
+  color: #65b0ba;
+}
+
