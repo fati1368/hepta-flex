@@ -144,14 +144,14 @@
 .slider:before {
   position: absolute;
   width: 98.1%;
-  height: 97.2%;;
+  height: 97.2%;
   background-color: rgba(0, 0, 0, 0.1);
   content: "";
   left: 0;
   bottom: 0;
-  margin:0.6em;
+  margin: 0.6em;
 }
-.slider .slider-img{
+.slider .slider-img {
   padding: 0.6em;
 }
 .slider .slider-img img {
@@ -270,11 +270,12 @@
 }
 .footer .title {
   color: #fff;
+  font-size: 1.8rem;
 }
 .footer ul li a {
   color: rgba(255, 255, 255, 0.7);
   display: block;
-  padding: 7px;
+  padding: 0.3em;
   font-weight: 200;
 }
 .footer ul li a:hover {
@@ -288,11 +289,14 @@
 .footer p {
   color: rgba(255, 255, 255, 0.5);
 }
+.footer .sub-text {
+  padding-right: 0.7em;
+}
 .footer .newsletter form input {
   background: transparent;
   border: none;
   outline: 0;
-  padding: 10px 0 14px;
+  padding: 2em 0 14px 0.3em;
   font-size: 1.5rem;
   width: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -334,4 +338,7 @@
 }
 .footer .copy-right ul {
   gap: 20px;
+}
+.footer .social ul {
+  gap: 0.7em;
 }
