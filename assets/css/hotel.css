@@ -1,34 +1,20 @@
 .header {
-  padding: 4.5em 0;
+  padding: 2.5em 0;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1;
 }
-.header .menu {
-  width: 45px;
-  height: 24px;
-}
-.header .menu span {
-  display: block;
-  width: 100%;
-  height: 2px;
-  background-color: #fff;
-}
-.header .logo a h2 {
-  color: #fff;
-  font-size: 3.4rem;
-}
 .hero-hotel {
-  height: 100dvh;
+  height: 70vh;
+  min-height: 500px;
   width: 100%;
   background-image: url(../image/hero_hotel.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  min-height: 700px;
 }
 .hero-hotel:before {
   position: absolute;
@@ -41,15 +27,18 @@
 }
 .hero-hotel .hero-content {
   color: #fff;
-  height: 100vh;
-  min-height: 700px;
+  height: 70vh;
+  min-height: 450px;
   text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .hero-hotel .hero-content h1 {
-  font-size: 9rem;
+  font-size: 8rem;
+  line-height: 1;
 }
 .hero-hotel .hero-content p {
-  font-size: 3.4rem;
+  font-size: 3rem;
   font-weight: 200;
   color: #fff;
 }
@@ -64,47 +53,55 @@
 .experience .items img {
   width: 70px;
   height: auto;
+  margin-bottom: 1em;
 }
-.welcome .img {
-  width: 500px;
-  height: 576px;
-  object-fit: cover;
+.welcome .half {
+  background-size: cover;
+  background-position: center center;
+  width: 50%;
+  height: 100svh;
 }
-.welcome .call-to-action {
-  gap: 10px;
-  width: fit-content;
+.welcome .part1 {
+  background-image: url("../image/hero_1.jpg.webp");
 }
-.welcome .call-to-action .icon {
-  width: 50px;
-  height: 50px;
-  border: 2px solid #e6e6e6;
-  border-radius: 50%;
-  padding-left: 2px;
-  padding-top: 1.5px;
-  font-size: 1.6rem;
-  color: #65b0ba;
+.welcome .part2 {
+  background-image: url("../image/slider-2.jpg");
 }
-.welcome .call-to-action .text {
-  font-size: 1.7rem;
-  color: #65b0ba;
-  letter-spacing: 2px;
+.welcome .text-welcome {
+  padding: 100px 7.3%;
+  width: 50%;
 }
-.welcome .call-to-action:hover .icon {
-  border-color: #000;
+.welcome .button {
+  display: inline-block;
+  padding: 0.5em 2em;;
+  border: 2px solid #3f9a94;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
   color: #000;
 }
-.welcome .call-to-action:hover .text {
-  color: #3f9a94;
+.welcome .button:hover {
+  background-color: #46b8b0;
+  color: #fff;
 }
 
 .slider:before {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 98.1%;
+  height: 97.2%;
   background-color: rgba(0, 0, 0, 0.1);
   content: "";
   left: 0;
   bottom: 0;
+  margin: 0.6em;
+}
+.slider .slider-img {
+  padding: 0.6em;
+}
+.slider .slider-img img {
+  box-shadow: 0 30px 70px -10px rgba(0, 0, 0, 0.2);
 }
 .slider .arrow {
   position: absolute;
@@ -142,6 +139,27 @@
 .slider .pagination ul li.active {
   background: transparent;
 }
+.intermediate {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  bottom: -2%;
+  left: 0;
+  z-index: -1;
+}
+.blog .items ul li .content .bottom-content  {
+background-color: #fff;
+}
+.blog .items ul li .content .bottom-content h3  {
+font-size: 2.6rem; 
+line-height: 1.2;
+font-weight: 300;
+padding: 1.2em;
+}
+.blog .items ul li .content .bottom-content h3:hover  {
+  color:#46b8b0;
+}
+
 .footer {
   background-color: #1a1a1a;
   padding: 100px 0;
@@ -149,11 +167,12 @@
 }
 .footer .title {
   color: #fff;
+  font-size: 1.8rem;
 }
 .footer ul li a {
   color: rgba(255, 255, 255, 0.7);
   display: block;
-  padding: 7px;
+  padding: 0.3em;
   font-weight: 200;
 }
 .footer ul li a:hover {
@@ -167,11 +186,14 @@
 .footer p {
   color: rgba(255, 255, 255, 0.5);
 }
+.footer .sub-text {
+  padding-right: 0.7em;
+}
 .footer .newsletter form input {
   background: transparent;
   border: none;
   outline: 0;
-  padding: 10px 0 14px;
+  padding: 2em 0 14px 0.3em;
   font-size: 1.5rem;
   width: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -213,4 +235,7 @@
 }
 .footer .copy-right ul {
   gap: 20px;
+}
+.footer .social ul {
+  gap: 0.7em;
 }

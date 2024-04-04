@@ -201,6 +201,9 @@ p {
 .min-section-space {
   padding: 1.5em 0 4em 0;
 }
+.middle1-section-space {
+  padding: 5em 0 7.1em 0;
+}
 .header-section {
   max-width: 700px;
   margin: 0 auto;
@@ -231,6 +234,10 @@ p {
   background-color: #fafafa;
   border-top: 1px solid #e0e0e0;
 }
+.bg-gray-dark {
+  background-color: #e9ecef;
+}
+
 .bg-green {
   background-color: #65c0ba;
 }
