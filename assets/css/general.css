@@ -280,6 +280,9 @@ p::selection {
   background-color: #fff;
   flex-direction: column;
 }
+#main-menu::selection {
+  color: #65c0ba;
+}
 #main-menu li {
   width: fit-content;
 }
