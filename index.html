@@ -33,22 +33,22 @@
           </div>
           <ul id="main-menu" class="justify-center align-center">
             <li>
-              <a href="index.html"><h6>Home</h6></a>
+              <a href="index.html"><h6 id="Home">Home</h6></a>
             </li>
             <li>
-              <a href="index.html"><h6>Hotel</h6></a>
+              <a href="index.html"><h6 id="Hotel">Hotel</h6></a>
             </li>
             <li>
-              <a href="index.html"><h6>About Us</h6></a>
+              <a href="index.html"><h6 id="About">About Us</h6></a>
             </li>
             <li>
-              <a href="index.html"><h6>Gallery</h6></a>
+              <a href="index.html"><h6 id="Gallery">Gallery</h6></a>
             </li>
             <li>
-              <a href="index.html"><h6>News</h6></a>
+              <a href="index.html"><h6 id="news">News</h6></a>
             </li>
             <li>
-              <a href="index.html"><h6>Contact</h6></a>
+              <a href="index.html"><h6 id="Contact">Contact</h6></a>
             </li>
           </ul>
         </div>
@@ -548,6 +548,7 @@
       var noneHeader = document.getElementById("none-header");
       function menuClick() {
         menuHamburger.classList.toggle("active-span");
+        document.getElementById("Home").style.color = "#65c0ba";
         if (noneHeader.style.display !== "none") {
           noneHeader.style.display = "none";
           maineMenu.style.display = "flex";

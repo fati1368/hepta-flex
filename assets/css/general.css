@@ -44,13 +44,12 @@ h5,
 h6 {
   font-family: "abril fatface", Arial, sans-serif;
 }
-h6{
+h6 {
   font-size: 4rem;
   font-weight: 300;
   color: black;
 }
 h1 {
-
 }
 h2 {
   font-size: 3.2rem;
@@ -262,7 +261,7 @@ p::selection {
 }
 .header .logo a h2 {
   color: #fff;
-  font-weight:700 ;
+  font-weight: 700;
 }
 #main-menu {
   display: none;
@@ -270,6 +269,7 @@ p::selection {
   width: 100vw;
   height: 100dvh;
   left: 0;
+  top: 0;
   background-color: #fff;
   flex-direction: column;
 }
