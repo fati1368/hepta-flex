@@ -12,7 +12,7 @@
   background-color: #fff;
   flex-direction: column;
 }
-#main-menu::selection {
+#main-menu h1:hover {
   color: #65c0ba;
 }
 #main-menu li {
