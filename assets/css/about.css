@@ -142,5 +142,9 @@
 }
 .blog .items ul li .content .bottom-content .title {
   line-height: 1.4;
-  text-overflow: ellipsis;
+  color: #000;
+  transition: all 1s;
+}
+.blog .items ul li .content .bottom-content .title:hover{
+  color: #3f9a94;
 }
