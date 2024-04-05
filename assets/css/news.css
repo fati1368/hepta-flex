@@ -102,9 +102,9 @@
 .news .side form .search-box span{
  position: absolute;
  top:50%;
- left:12%;
+ left:40px;
  z-index:1;
- transform:translate(-12% , -50%);
+ transform:translateY(-50%);
 }
 .news .side form .search-box input{
     padding: 3px 10px 3px 30px;
