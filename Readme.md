@@ -3,7 +3,7 @@
 ## This is an exercise to learn HTML and CSS and improve coding skills.
 
 ### Refrence site: [Theme Hepta](https://preview.colorlib.com/theme/hepta/index.html)
-
+### similarity : 99%
 ![hepta project](/assets/image/screen/Screenshot%202024-04-05%20201549.png)
 ![hepta project](/assets/image/screen/Screenshot%202024-04-05%20201625.png)
 ![hepta project](/assets/image/screen/Screenshot%202024-04-05%20201653.png)
