@@ -38,6 +38,10 @@
   .col-6 {
     flex-basis: 100%;
   }
+  .welcome .button{
+    width: 100%;
+    text-align: center;
+  }
   .welcome .half {
     height: 400px;
   }
