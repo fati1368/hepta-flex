@@ -9,11 +9,11 @@
 #### -Provides a seamless user experience across devices
 ##### -Reference site: [Theme Hepta](https://preview.colorlib.com/theme/hepta/index.html)
 ##### -similarity : 100%
-![hepta project](/assets/image/screen/Screenshot%202024-04-05%20201549.png "title-1" =48%x)
-![hepta project](/assets/image/screen/3.png "title-2" =48%x)  ![hepta project](/assets/image/screen/2.png "title-2" =48%x)   ![hepta project](/assets/image/screen/1.png "title-1" =48%x) 
-![hepta project](/assets/image/screen/Screenshot%202024-04-05%20201625.png "title-2" =48%x) 
-![hepta project](/assets/image/screen/Screenshot%202024-04-05%20201653.png "title-1" =48%x) ![hepta project](/assets/image/screen/Screenshot%202024-04-05%20201807.png "title-1" =48%x) 
-![hepta project](/assets/image/screen/Screenshot%202024-04-05%20201839.png "title-2" =48%x) 
+![hepta project](/assets/image/screen/Screenshot%202024-04-05%20201549.png) ![hepta project](/assets/image/screen/3.png) 
+![hepta project](/assets/image/screen/2.png)   ![hepta project](/assets/image/screen/1.png) 
+
+![hepta project](/assets/image/screen/Screenshot%202024-04-05%20201625.png) ![hepta project](/assets/image/screen/Screenshot%202024-04-05%20201653.png) 
+![hepta project](/assets/image/screen/Screenshot%202024-04-05%20201807.png) ![hepta project](/assets/image/screen/Screenshot%202024-04-05%20201839.png) 
 
 
 #### While I recognize that the code isn’t optimized, I’d appreciate your assistance in improving it.
